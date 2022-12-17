@@ -37,7 +37,6 @@ int is_board_valid(){
     int k,j;
     for (k = 0; k <9; k++){
         for(j = 0; j < 9; j++){
-            //grid
             if(k % 3 == 0 && j % 3 == 0){
                 params[t_index].id = t_index;
                 params[t_index].starting_rows = k;
