@@ -120,7 +120,7 @@ void *validation_cols(void* param){
             valid_arr[nums - 1] = 1;
         }
     }
-    worker_validation[id]==1;
+    worker_validation[id] == 1;
     pthread_exit(NULL);
 }
 void *valdiation_grid(void* param){
